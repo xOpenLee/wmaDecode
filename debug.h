@@ -39,7 +39,7 @@
 #define VAR_DEBUG(var) \
         do{\
            WMA_PRINTF("###INFO: Line = %d, varName = %s, varAddr = %p, varVal = 0x%x\r\n",\
-                     __LINE__, #var, &var, var); \
+                     __LINE__, #var, &var, (int)var); \
         }while(0)
 #else
 #define  VAR_DEBUG(var) do{}while(0)
