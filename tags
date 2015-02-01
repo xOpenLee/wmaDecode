@@ -1,0 +1,552 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALACOPTS	Makefile	/^ALACOPTS = -O3$/;"	m
+ALT_BITSTREAM_READER	wmadeci.c	276;"	d	file:
+AVCodec	codeccontext.h	/^typedef struct AVCodec {$/;"	s
+AVCodec	codeccontext.h	/^} AVCodec;$/;"	t	typeref:struct:AVCodec
+AVOption	codeccontext.h	/^typedef struct AVOption {$/;"	s
+AVOption	codeccontext.h	/^} AVOption;$/;"	t	typeref:struct:AVOption
+BF	wmadeci.c	1028;"	d	file:
+BLOCK_MAX_BITS	wmadeci.c	31;"	d	file:
+BLOCK_MAX_SIZE	wmadeci.c	32;"	d	file:
+BLOCK_MIN_BITS	wmadeci.c	30;"	d	file:
+BLOCK_NB_SIZES	wmadeci.c	34;"	d	file:
+CFLAGS	Makefile	/^CFLAGS = $(GCCOPTS) $(ALACOPTS) $(INCLUDES) $(TARGET) $(EXTRA_DEFINES) \\$/;"	m
+CLOSE_READER	wmadeci.c	513;"	d	file:
+CLOSE_READER	wmadeci.c	556;"	d	file:
+CLOSE_READER	wmadeci.c	620;"	d	file:
+CMUL	wmadeci.c	/^void CMUL(fixed32 *pre,$/;"	f
+CODECCTX_H	codeccontext.h	21;"	d
+CODEC_ID_4XM	codeccontext.h	/^    CODEC_ID_4XM,$/;"	e	enum:CodecID
+CODEC_ID_8BPS	codeccontext.h	/^    CODEC_ID_8BPS,$/;"	e	enum:CodecID
+CODEC_ID_AAC	codeccontext.h	/^    CODEC_ID_AAC,$/;"	e	enum:CodecID
+CODEC_ID_AC3	codeccontext.h	/^    CODEC_ID_AC3,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_4XM	codeccontext.h	/^    CODEC_ID_ADPCM_4XM,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_ADX	codeccontext.h	/^    CODEC_ID_ADPCM_ADX,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_EA	codeccontext.h	/^    CODEC_ID_ADPCM_EA,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_IMA_DK3	codeccontext.h	/^    CODEC_ID_ADPCM_IMA_DK3,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_IMA_DK4	codeccontext.h	/^    CODEC_ID_ADPCM_IMA_DK4,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_IMA_QT	codeccontext.h	/^    CODEC_ID_ADPCM_IMA_QT,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_IMA_SMJPEG	codeccontext.h	/^    CODEC_ID_ADPCM_IMA_SMJPEG,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_IMA_WAV	codeccontext.h	/^    CODEC_ID_ADPCM_IMA_WAV,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_IMA_WS	codeccontext.h	/^    CODEC_ID_ADPCM_IMA_WS,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_MS	codeccontext.h	/^    CODEC_ID_ADPCM_MS,$/;"	e	enum:CodecID
+CODEC_ID_ADPCM_XA	codeccontext.h	/^    CODEC_ID_ADPCM_XA,$/;"	e	enum:CodecID
+CODEC_ID_AMR_NB	codeccontext.h	/^    CODEC_ID_AMR_NB,$/;"	e	enum:CodecID
+CODEC_ID_AMR_WB	codeccontext.h	/^    CODEC_ID_AMR_WB,$/;"	e	enum:CodecID
+CODEC_ID_ASV1	codeccontext.h	/^    CODEC_ID_ASV1,$/;"	e	enum:CodecID
+CODEC_ID_ASV2	codeccontext.h	/^    CODEC_ID_ASV2,$/;"	e	enum:CodecID
+CODEC_ID_CINEPAK	codeccontext.h	/^    CODEC_ID_CINEPAK,$/;"	e	enum:CodecID
+CODEC_ID_CLJR	codeccontext.h	/^    CODEC_ID_CLJR,$/;"	e	enum:CodecID
+CODEC_ID_CYUV	codeccontext.h	/^    CODEC_ID_CYUV,$/;"	e	enum:CodecID
+CODEC_ID_DVAUDIO	codeccontext.h	/^    CODEC_ID_DVAUDIO,$/;"	e	enum:CodecID
+CODEC_ID_DVVIDEO	codeccontext.h	/^    CODEC_ID_DVVIDEO,$/;"	e	enum:CodecID
+CODEC_ID_FFV1	codeccontext.h	/^    CODEC_ID_FFV1,$/;"	e	enum:CodecID
+CODEC_ID_FLIC	codeccontext.h	/^    CODEC_ID_FLIC,$/;"	e	enum:CodecID
+CODEC_ID_FLV1	codeccontext.h	/^    CODEC_ID_FLV1,$/;"	e	enum:CodecID
+CODEC_ID_H263	codeccontext.h	/^    CODEC_ID_H263,$/;"	e	enum:CodecID
+CODEC_ID_H263I	codeccontext.h	/^    CODEC_ID_H263I,$/;"	e	enum:CodecID
+CODEC_ID_H263P	codeccontext.h	/^    CODEC_ID_H263P,$/;"	e	enum:CodecID
+CODEC_ID_H264	codeccontext.h	/^    CODEC_ID_H264,$/;"	e	enum:CodecID
+CODEC_ID_HUFFYUV	codeccontext.h	/^    CODEC_ID_HUFFYUV,$/;"	e	enum:CodecID
+CODEC_ID_IDCIN	codeccontext.h	/^    CODEC_ID_IDCIN,$/;"	e	enum:CodecID
+CODEC_ID_INDEO3	codeccontext.h	/^    CODEC_ID_INDEO3,$/;"	e	enum:CodecID
+CODEC_ID_INTERPLAY_DPCM	codeccontext.h	/^    CODEC_ID_INTERPLAY_DPCM,$/;"	e	enum:CodecID
+CODEC_ID_INTERPLAY_VIDEO	codeccontext.h	/^    CODEC_ID_INTERPLAY_VIDEO,$/;"	e	enum:CodecID
+CODEC_ID_LJPEG	codeccontext.h	/^    CODEC_ID_LJPEG,$/;"	e	enum:CodecID
+CODEC_ID_MACE3	codeccontext.h	/^    CODEC_ID_MACE3,$/;"	e	enum:CodecID
+CODEC_ID_MACE6	codeccontext.h	/^    CODEC_ID_MACE6,$/;"	e	enum:CodecID
+CODEC_ID_MDEC	codeccontext.h	/^    CODEC_ID_MDEC,$/;"	e	enum:CodecID
+CODEC_ID_MJPEG	codeccontext.h	/^    CODEC_ID_MJPEG,$/;"	e	enum:CodecID
+CODEC_ID_MJPEGB	codeccontext.h	/^    CODEC_ID_MJPEGB,$/;"	e	enum:CodecID
+CODEC_ID_MP2	codeccontext.h	/^    CODEC_ID_MP2,$/;"	e	enum:CodecID
+CODEC_ID_MP3	codeccontext.h	/^    CODEC_ID_MP3, \/* prefered ID for MPEG Audio layer 1, 2 or3 decoding *\/$/;"	e	enum:CodecID
+CODEC_ID_MPEG1VIDEO	codeccontext.h	/^    CODEC_ID_MPEG1VIDEO,$/;"	e	enum:CodecID
+CODEC_ID_MPEG2TS	codeccontext.h	/^    CODEC_ID_MPEG2TS, \/* _FAKE_ codec to indicate a raw MPEG2 transport$/;"	e	enum:CodecID
+CODEC_ID_MPEG2VIDEO	codeccontext.h	/^    CODEC_ID_MPEG2VIDEO, \/* prefered ID for MPEG Video 1 or 2 decoding *\/$/;"	e	enum:CodecID
+CODEC_ID_MPEG2VIDEO_XVMC	codeccontext.h	/^    CODEC_ID_MPEG2VIDEO_XVMC,$/;"	e	enum:CodecID
+CODEC_ID_MPEG4	codeccontext.h	/^    CODEC_ID_MPEG4,$/;"	e	enum:CodecID
+CODEC_ID_MPEG4AAC	codeccontext.h	/^    CODEC_ID_MPEG4AAC,$/;"	e	enum:CodecID
+CODEC_ID_MSMPEG4V1	codeccontext.h	/^    CODEC_ID_MSMPEG4V1,$/;"	e	enum:CodecID
+CODEC_ID_MSMPEG4V2	codeccontext.h	/^    CODEC_ID_MSMPEG4V2,$/;"	e	enum:CodecID
+CODEC_ID_MSMPEG4V3	codeccontext.h	/^    CODEC_ID_MSMPEG4V3,$/;"	e	enum:CodecID
+CODEC_ID_MSRLE	codeccontext.h	/^    CODEC_ID_MSRLE,$/;"	e	enum:CodecID
+CODEC_ID_MSVIDEO1	codeccontext.h	/^    CODEC_ID_MSVIDEO1,$/;"	e	enum:CodecID
+CODEC_ID_MSZH	codeccontext.h	/^    CODEC_ID_MSZH,$/;"	e	enum:CodecID
+CODEC_ID_NONE	codeccontext.h	/^    CODEC_ID_NONE,$/;"	e	enum:CodecID
+CODEC_ID_PCM_ALAW	codeccontext.h	/^    CODEC_ID_PCM_ALAW,$/;"	e	enum:CodecID
+CODEC_ID_PCM_MULAW	codeccontext.h	/^    CODEC_ID_PCM_MULAW,$/;"	e	enum:CodecID
+CODEC_ID_PCM_S16BE	codeccontext.h	/^    CODEC_ID_PCM_S16BE,$/;"	e	enum:CodecID
+CODEC_ID_PCM_S16LE	codeccontext.h	/^    CODEC_ID_PCM_S16LE,$/;"	e	enum:CodecID
+CODEC_ID_PCM_S8	codeccontext.h	/^    CODEC_ID_PCM_S8,$/;"	e	enum:CodecID
+CODEC_ID_PCM_U16BE	codeccontext.h	/^    CODEC_ID_PCM_U16BE,$/;"	e	enum:CodecID
+CODEC_ID_PCM_U16LE	codeccontext.h	/^    CODEC_ID_PCM_U16LE,$/;"	e	enum:CodecID
+CODEC_ID_PCM_U8	codeccontext.h	/^    CODEC_ID_PCM_U8,$/;"	e	enum:CodecID
+CODEC_ID_QTRLE	codeccontext.h	/^    CODEC_ID_QTRLE,$/;"	e	enum:CodecID
+CODEC_ID_RAWVIDEO	codeccontext.h	/^    CODEC_ID_RAWVIDEO,$/;"	e	enum:CodecID
+CODEC_ID_RA_144	codeccontext.h	/^    CODEC_ID_RA_144,$/;"	e	enum:CodecID
+CODEC_ID_RA_288	codeccontext.h	/^    CODEC_ID_RA_288,$/;"	e	enum:CodecID
+CODEC_ID_ROQ	codeccontext.h	/^    CODEC_ID_ROQ,$/;"	e	enum:CodecID
+CODEC_ID_ROQ_DPCM	codeccontext.h	/^    CODEC_ID_ROQ_DPCM,$/;"	e	enum:CodecID
+CODEC_ID_RPZA	codeccontext.h	/^    CODEC_ID_RPZA,$/;"	e	enum:CodecID
+CODEC_ID_RV10	codeccontext.h	/^    CODEC_ID_RV10,$/;"	e	enum:CodecID
+CODEC_ID_RV20	codeccontext.h	/^    CODEC_ID_RV20,$/;"	e	enum:CodecID
+CODEC_ID_SMC	codeccontext.h	/^    CODEC_ID_SMC,$/;"	e	enum:CodecID
+CODEC_ID_SP5X	codeccontext.h	/^    CODEC_ID_SP5X,$/;"	e	enum:CodecID
+CODEC_ID_SVQ1	codeccontext.h	/^    CODEC_ID_SVQ1,$/;"	e	enum:CodecID
+CODEC_ID_SVQ3	codeccontext.h	/^    CODEC_ID_SVQ3,$/;"	e	enum:CodecID
+CODEC_ID_THEORA	codeccontext.h	/^    CODEC_ID_THEORA,$/;"	e	enum:CodecID
+CODEC_ID_TRUEMOTION1	codeccontext.h	/^    CODEC_ID_TRUEMOTION1,$/;"	e	enum:CodecID
+CODEC_ID_VCR1	codeccontext.h	/^    CODEC_ID_VCR1,$/;"	e	enum:CodecID
+CODEC_ID_VMDAUDIO	codeccontext.h	/^    CODEC_ID_VMDAUDIO,$/;"	e	enum:CodecID
+CODEC_ID_VMDVIDEO	codeccontext.h	/^    CODEC_ID_VMDVIDEO,$/;"	e	enum:CodecID
+CODEC_ID_VORBIS	codeccontext.h	/^    CODEC_ID_VORBIS,$/;"	e	enum:CodecID
+CODEC_ID_VP3	codeccontext.h	/^    CODEC_ID_VP3,$/;"	e	enum:CodecID
+CODEC_ID_WMAV1	codeccontext.h	/^    CODEC_ID_WMAV1,$/;"	e	enum:CodecID
+CODEC_ID_WMAV2	codeccontext.h	/^    CODEC_ID_WMAV2,$/;"	e	enum:CodecID
+CODEC_ID_WMV1	codeccontext.h	/^    CODEC_ID_WMV1,$/;"	e	enum:CodecID
+CODEC_ID_WMV2	codeccontext.h	/^    CODEC_ID_WMV2,$/;"	e	enum:CodecID
+CODEC_ID_WS_VQA	codeccontext.h	/^    CODEC_ID_WS_VQA,$/;"	e	enum:CodecID
+CODEC_ID_XAN_DPCM	codeccontext.h	/^    CODEC_ID_XAN_DPCM,$/;"	e	enum:CodecID
+CODEC_ID_XAN_WC3	codeccontext.h	/^    CODEC_ID_XAN_WC3,$/;"	e	enum:CodecID
+CODEC_ID_XAN_WC4	codeccontext.h	/^    CODEC_ID_XAN_WC4,$/;"	e	enum:CodecID
+CODEC_ID_ZLIB	codeccontext.h	/^    CODEC_ID_ZLIB,$/;"	e	enum:CodecID
+CODEC_TYPE_AUDIO	codeccontext.h	/^    CODEC_TYPE_AUDIO,$/;"	e	enum:CodecType
+CODEC_TYPE_DATA	codeccontext.h	/^    CODEC_TYPE_DATA,$/;"	e	enum:CodecType
+CODEC_TYPE_UNKNOWN	codeccontext.h	/^    CODEC_TYPE_UNKNOWN = -1,$/;"	e	enum:CodecType
+CODEC_TYPE_VIDEO	codeccontext.h	/^    CODEC_TYPE_VIDEO,$/;"	e	enum:CodecType
+CodecContext	codeccontext.h	/^typedef struct CodecContext {$/;"	s
+CodecContext	codeccontext.h	/^} CodecContext;$/;"	t	typeref:struct:CodecContext
+CodecID	codeccontext.h	/^enum CodecID {$/;"	g
+CodecType	codeccontext.h	/^enum CodecType {$/;"	g
+CoefVLCTable	wmadeci.h	/^typedef struct CoefVLCTable$/;"	s
+CoefVLCTable	wmadeci.h	/^} CoefVLCTable;$/;"	t	typeref:struct:CoefVLCTable
+DEBUG	debug.h	19;"	d
+DEBUG	debug.h	21;"	d
+DEPFILE	Makefile	/^DEPFILE = $(OBJDIR)\/dep-libwma$/;"	m
+DIRS	Makefile	/^DIRS =$/;"	m
+FAST_FILTERS	wmadeci.c	68;"	d	file:
+FFTComplex	wmadeci.c	/^FFTComplex;$/;"	t	typeref:struct:FFTComplex	file:
+FFTComplex	wmadeci.c	/^typedef struct FFTComplex$/;"	s	file:
+FFTContext	wmadeci.c	/^FFTContext;$/;"	t	typeref:struct:FFTContext	file:
+FFTContext	wmadeci.c	/^typedef struct FFTContext$/;"	s	file:
+FF_AA_AUTO	codeccontext.h	602;"	d
+FF_AA_FASTINT	codeccontext.h	603;"	d
+FF_AA_FLOAT	codeccontext.h	605;"	d
+FF_AA_INT	codeccontext.h	604;"	d
+FF_ASPECT_16_9_525	codeccontext.h	227;"	d
+FF_ASPECT_16_9_625	codeccontext.h	226;"	d
+FF_ASPECT_4_3_525	codeccontext.h	225;"	d
+FF_ASPECT_4_3_625	codeccontext.h	224;"	d
+FF_ASPECT_EXTENDED	codeccontext.h	228;"	d
+FF_ASPECT_SQUARE	codeccontext.h	223;"	d
+FF_CMP_BIT	codeccontext.h	385;"	d
+FF_CMP_CHROMA	codeccontext.h	390;"	d
+FF_CMP_DCT	codeccontext.h	383;"	d
+FF_CMP_PSNR	codeccontext.h	384;"	d
+FF_CMP_RD	codeccontext.h	386;"	d
+FF_CMP_SAD	codeccontext.h	380;"	d
+FF_CMP_SATD	codeccontext.h	382;"	d
+FF_CMP_SSE	codeccontext.h	381;"	d
+FF_CMP_VSAD	codeccontext.h	388;"	d
+FF_CMP_VSSE	codeccontext.h	389;"	d
+FF_CMP_ZERO	codeccontext.h	387;"	d
+FF_CODER_TYPE_AC	codeccontext.h	496;"	d
+FF_CODER_TYPE_VLC	codeccontext.h	495;"	d
+FF_DEFAULT_QUANT_BIAS	codeccontext.h	458;"	d
+FF_MB_DECISION_BITS	codeccontext.h	535;"	d
+FF_MB_DECISION_RD	codeccontext.h	536;"	d
+FF_MB_DECISION_SIMPLE	codeccontext.h	534;"	d
+FF_OPT_MAX_DEPTH	codeccontext.h	647;"	d
+FF_OPT_TYPE_BOOL	codeccontext.h	627;"	d
+FF_OPT_TYPE_DOUBLE	codeccontext.h	628;"	d
+FF_OPT_TYPE_FLAG	codeccontext.h	633;"	d
+FF_OPT_TYPE_INT	codeccontext.h	629;"	d
+FF_OPT_TYPE_MASK	codeccontext.h	631;"	d
+FF_OPT_TYPE_RCOVERRIDE	codeccontext.h	634;"	d
+FF_OPT_TYPE_STRING	codeccontext.h	630;"	d
+Fixed32From64	wmadeci.c	/^static fixed32 Fixed32From64(fixed64 x)$/;"	f	file:
+Fixed32To64	wmadeci.c	/^static fixed64 Fixed32To64(fixed32 x)$/;"	f	file:
+GET_CACHE	wmadeci.c	540;"	d	file:
+GET_CACHE	wmadeci.c	602;"	d	file:
+GET_CACHE	wmadeci.c	668;"	d	file:
+GET_DATA	wmadeci.c	1164;"	d	file:
+GET_VLC	wmadeci.c	737;"	d	file:
+GetBitContext	wmadeci.c	/^GetBitContext;$/;"	t	typeref:struct:GetBitContext	file:
+GetBitContext	wmadeci.c	/^typedef struct GetBitContext$/;"	s	file:
+HIGH_BAND_MAX_SIZE	wmadeci.c	36;"	d	file:
+IGNORE_OVERFLOW	wmadeci.c	67;"	d	file:
+INCLUDES	Makefile	/^INCLUDES=-I$(APPSDIR) -I.. -I. -I$(FIRMDIR)\/include -I$(FIRMDIR)\/export	\\$/;"	m
+IntFrom64	wmadeci.c	/^static int IntFrom64(fixed64 x)$/;"	f	file:
+IntTo64	wmadeci.c	/^static fixed64 IntTo64(int x)$/;"	f	file:
+LAST_SKIP_BITS	wmadeci.c	531;"	d	file:
+LAST_SKIP_BITS	wmadeci.c	593;"	d	file:
+LAST_SKIP_BITS	wmadeci.c	659;"	d	file:
+LAST_SKIP_CACHE	wmadeci.c	532;"	d	file:
+LAST_SKIP_CACHE	wmadeci.c	594;"	d	file:
+LAST_SKIP_CACHE	wmadeci.c	660;"	d	file:
+LSP_POW_BITS	wmadeci.c	48;"	d	file:
+MAX_CHANNELS	wmadeci.c	44;"	d	file:
+MAX_CODED_SUPERFRAME_SIZE	wmadeci.c	40;"	d	file:
+MDCTContext	wmadeci.c	/^MDCTContext;$/;"	t	typeref:struct:MDCTContext	file:
+MDCTContext	wmadeci.c	/^typedef struct MDCTContext$/;"	s	file:
+MIN_CACHE_BITS	wmadeci.c	507;"	d	file:
+MIN_CACHE_BITS	wmadeci.c	549;"	d	file:
+MIN_CACHE_BITS	wmadeci.c	612;"	d	file:
+M_PI_F	wmadeci.c	42;"	d	file:
+NB_LSP_COEFS	wmadeci.c	38;"	d	file:
+NEG_SSR32	wmadeci.c	333;"	d	file:
+NEG_USR32	wmadeci.c	334;"	d	file:
+NOISE_TAB_SIZE	wmadeci.c	46;"	d	file:
+OBJDIR	Makefile	/^OBJDIR=.$/;"	m
+OBJS	Makefile	/^OBJS = $(patsubst %.S, $(OBJDIR)\/%.o, $(OBJS2))$/;"	m
+OBJS2	Makefile	/^OBJS2 := $(SRC:%.c=$(OBJDIR)\/%.o)$/;"	m
+OPEN_READER	wmadeci.c	509;"	d	file:
+OPEN_READER	wmadeci.c	551;"	d	file:
+OPEN_READER	wmadeci.c	614;"	d	file:
+OUTPUT	Makefile	/^OUTPUT=libwma.a$/;"	m
+PDEBUG	debug.h	27;"	d
+PDEBUG	debug.h	33;"	d
+PRECISION	wmadeci.c	69;"	d	file:
+PRECISION64	wmadeci.c	70;"	d	file:
+SHOW_SBITS	wmadeci.c	537;"	d	file:
+SHOW_SBITS	wmadeci.c	599;"	d	file:
+SHOW_SBITS	wmadeci.c	665;"	d	file:
+SHOW_UBITS	wmadeci.c	534;"	d	file:
+SHOW_UBITS	wmadeci.c	596;"	d	file:
+SHOW_UBITS	wmadeci.c	662;"	d	file:
+SKIP_BITS	wmadeci.c	525;"	d	file:
+SKIP_BITS	wmadeci.c	587;"	d	file:
+SKIP_BITS	wmadeci.c	653;"	d	file:
+SKIP_CACHE	wmadeci.c	519;"	d	file:
+SKIP_CACHE	wmadeci.c	581;"	d	file:
+SKIP_CACHE	wmadeci.c	636;"	d	file:
+SKIP_CACHE	wmadeci.c	644;"	d	file:
+SKIP_COUNTER	wmadeci.c	522;"	d	file:
+SKIP_COUNTER	wmadeci.c	584;"	d	file:
+SKIP_COUNTER	wmadeci.c	650;"	d	file:
+SLICE_FLAG_ALLOW_FIELD	codeccontext.h	518;"	d
+SLICE_FLAG_ALLOW_PLANE	codeccontext.h	519;"	d
+SLICE_FLAG_CODED_ORDER	codeccontext.h	517;"	d
+SRC	Makefile	/^SRC = wmadeci.c$/;"	m
+STEP	wmadeci.c	169;"	d	file:
+UPDATE_CACHE	wmadeci.c	516;"	d	file:
+UPDATE_CACHE	wmadeci.c	563;"	d	file:
+UPDATE_CACHE	wmadeci.c	572;"	d	file:
+UPDATE_CACHE	wmadeci.c	626;"	d	file:
+VAR_DEBUG	debug.h	39;"	d
+VAR_DEBUG	debug.h	45;"	d
+VLC	wmadeci.c	/^VLC;$/;"	t	typeref:struct:VLC	file:
+VLC	wmadeci.c	/^typedef struct VLC$/;"	s	file:
+VLC_TYPE	wmadeci.c	50;"	d	file:
+WMADECI_H	wmadeci.h	21;"	d
+WMADecodeContext	wmadeci.c	/^typedef struct WMADecodeContext$/;"	s	file:
+WMADecodeContext	wmadeci.c	/^} WMADecodeContext;$/;"	t	typeref:struct:WMADecodeContext	file:
+WMA_DEBUG	debug.h	17;"	d
+WMA_ERR	debug.h	49;"	d
+WMA_PDEBUG	debug.h	25;"	d
+WMA_PRINTF	debug.h	13;"	d
+WMA_VAR_DEBUG	debug.h	37;"	d
+_DEBUG_H	debug.h	9;"	d
+__av_freepy	wmadeci.c	/^void __av_freepy(void **ptr)$/;"	f
+align_get_bits	wmadeci.c	/^void align_get_bits(GetBitContext *s)$/;"	f
+alloc_table	wmadeci.c	/^static int alloc_table(VLC *vlc, int size)$/;"	f	file:
+antialias_algo	codeccontext.h	/^    int antialias_algo;$/;"	m	struct:CodecContext
+av_free	wmadeci.c	/^void av_free(void *ptr)$/;"	f
+av_freep	wmadeci.c	911;"	d	file:
+av_log2	wmadeci.c	/^static inline int av_log2(unsigned int v)$/;"	f	file:
+av_malloc	wmadeci.c	/^void *av_malloc(unsigned int size)$/;"	f
+av_realloc	wmadeci.c	/^void *av_realloc(void *ptr, unsigned int size)$/;"	f
+be2me_16	wmadeci.c	318;"	d	file:
+be2me_16	wmadeci.c	325;"	d	file:
+be2me_32	wmadeci.c	319;"	d	file:
+be2me_32	wmadeci.c	326;"	d	file:
+be2me_64	wmadeci.c	320;"	d	file:
+be2me_64	wmadeci.c	327;"	d	file:
+bit_count	wmadeci.c	/^    int bit_count;$/;"	m	struct:GetBitContext	file:
+bit_rate	codeccontext.h	/^    int bit_rate;$/;"	m	struct:CodecContext
+bit_rate	wmadeci.c	/^    int bit_rate;$/;"	m	struct:WMADecodeContext	file:
+bit_rate_tolerance	codeccontext.h	/^    int bit_rate_tolerance;$/;"	m	struct:CodecContext
+bits	wmadeci.c	/^    int bits;$/;"	m	struct:VLC	file:
+bits_per_sample	codeccontext.h	/^    int bits_per_sample;$/;"	m	struct:CodecContext
+block_align	codeccontext.h	/^    int block_align; \/\/\/< used by some WAV based audio codecs$/;"	m	struct:CodecContext
+block_align	wmadeci.c	/^    int block_align;$/;"	m	struct:WMADecodeContext	file:
+block_len	wmadeci.c	/^    int block_len; \/* block length in samples *\/$/;"	m	struct:WMADecodeContext	file:
+block_len_bits	wmadeci.c	/^    int block_len_bits; \/* log2 of current block length *\/$/;"	m	struct:WMADecodeContext	file:
+block_num	wmadeci.c	/^    int block_num; \/* block number in current frame *\/$/;"	m	struct:WMADecodeContext	file:
+block_pos	wmadeci.c	/^    int block_pos; \/* current position in frame *\/$/;"	m	struct:WMADecodeContext	file:
+bswap_16	wmadeci.c	/^uint16_t bswap_16(uint16_t x)$/;"	f
+bswap_32	wmadeci.c	/^uint32_t bswap_32(uint32_t x)$/;"	f
+buffer	wmadeci.c	/^    const uint8_t *buffer, *buffer_end;$/;"	m	struct:GetBitContext	file:
+buffer_end	wmadeci.c	/^    const uint8_t *buffer, *buffer_end;$/;"	m	struct:GetBitContext	file:
+buffer_ptr	wmadeci.c	/^    uint32_t *buffer_ptr;$/;"	m	struct:GetBitContext	file:
+buffer_ptr	wmadeci.c	/^    uint8_t *buffer_ptr;$/;"	m	struct:GetBitContext	file:
+build_table	wmadeci.c	/^static int build_table(VLC *vlc, int table_nb_bits,$/;"	f	file:
+byte_offset_bits	wmadeci.c	/^    int byte_offset_bits;$/;"	m	struct:WMADecodeContext	file:
+cache	wmadeci.c	/^    uint32_t cache;$/;"	m	struct:GetBitContext	file:
+cache0	wmadeci.c	/^    uint32_t cache0;$/;"	m	struct:GetBitContext	file:
+cache1	wmadeci.c	/^    uint32_t cache1;$/;"	m	struct:GetBitContext	file:
+capabilities	codeccontext.h	/^    int capabilities;$/;"	m	struct:AVCodec
+channel_coded	wmadeci.c	/^    uint8_t channel_coded[MAX_CHANNELS]; \/* true if channel is coded *\/$/;"	m	struct:WMADecodeContext	file:
+channels	codeccontext.h	/^    int channels;$/;"	m	struct:CodecContext
+close	codeccontext.h	/^    int (*close)(CodecContext *);$/;"	m	struct:AVCodec
+codec	codeccontext.h	/^    struct AVCodec *codec;$/;"	m	struct:CodecContext	typeref:struct:CodecContext::AVCodec
+codec_id	codeccontext.h	/^    enum CodecID codec_id; \/* see CODEC_ID_xxx *\/$/;"	m	struct:CodecContext	typeref:enum:CodecContext::CodecID
+codec_name	codeccontext.h	/^    char codec_name[32];$/;"	m	struct:CodecContext
+codec_tag	codeccontext.h	/^    unsigned int codec_tag;$/;"	m	struct:CodecContext
+codec_type	codeccontext.h	/^    enum CodecType codec_type; \/* see CODEC_TYPE_xxx *\/$/;"	m	struct:CodecContext	typeref:enum:CodecContext::CodecType
+coder_type	codeccontext.h	/^    int coder_type;$/;"	m	struct:CodecContext
+coef0_huffbits	wmadeci.h	/^static const uint8_t coef0_huffbits[666] = {$/;"	v
+coef0_huffcodes	wmadeci.h	/^static const uint32_t coef0_huffcodes[666] = {$/;"	v
+coef1_huffbits	wmadeci.h	/^static const uint8_t coef1_huffbits[555] = {$/;"	v
+coef1_huffcodes	wmadeci.h	/^static const uint32_t coef1_huffcodes[555] = {$/;"	v
+coef2_huffbits	wmadeci.h	/^static const uint8_t coef2_huffbits[1336] = {$/;"	v
+coef2_huffcodes	wmadeci.h	/^static const uint32_t coef2_huffcodes[1336] = {$/;"	v
+coef3_huffbits	wmadeci.h	/^static const uint8_t coef3_huffbits[1072] = {$/;"	v
+coef3_huffcodes	wmadeci.h	/^static const uint32_t coef3_huffcodes[1072] = {$/;"	v
+coef4_huffbits	wmadeci.h	/^static const uint8_t coef4_huffbits[476] = {$/;"	v
+coef4_huffcodes	wmadeci.h	/^static const uint32_t coef4_huffcodes[476] = {$/;"	v
+coef5_huffbits	wmadeci.h	/^static const uint8_t coef5_huffbits[435] = {$/;"	v
+coef5_huffcodes	wmadeci.h	/^static const uint32_t coef5_huffcodes[435] = {$/;"	v
+coef_vlc	wmadeci.c	/^    VLC coef_vlc[2];$/;"	m	struct:WMADecodeContext	file:
+coef_vlcs	wmadeci.h	/^static const CoefVLCTable coef_vlcs[6] = {$/;"	v
+coefs	wmadeci.c	/^    fixed32 coefs[MAX_CHANNELS][BLOCK_MAX_SIZE];$/;"	m	struct:WMADecodeContext	file:
+coefs1	wmadeci.c	/^    int16_t coefs1[MAX_CHANNELS][BLOCK_MAX_SIZE];$/;"	m	struct:WMADecodeContext	file:
+coefs_end	wmadeci.c	/^    int coefs_end[BLOCK_NB_SIZES]; \/* max number of coded coefficients *\/$/;"	m	struct:WMADecodeContext	file:
+coefs_start	wmadeci.c	/^    int coefs_start;               \/* first coded coef *\/$/;"	m	struct:WMADecodeContext	file:
+color_table_id	codeccontext.h	/^    int color_table_id;$/;"	m	struct:CodecContext
+context_model	codeccontext.h	/^    int context_model;$/;"	m	struct:CodecContext
+decode	codeccontext.h	/^    int (*decode)(CodecContext *, void *outdata, int *outdata_size,$/;"	m	struct:AVCodec
+decode_exp_lsp	wmadeci.c	/^static void decode_exp_lsp(WMADecodeContext *s, int ch)$/;"	f	file:
+decode_exp_vlc	wmadeci.c	/^static int decode_exp_vlc(WMADecodeContext *s, int ch)$/;"	f	file:
+defstr	codeccontext.h	/^    const char *defstr;$/;"	m	struct:AVOption
+defval	codeccontext.h	/^    double defval;$/;"	m	struct:AVOption
+dia_size	codeccontext.h	/^    int dia_size;$/;"	m	struct:CodecContext
+encode	codeccontext.h	/^    int (*encode)(CodecContext *, uint8_t *buf, int buf_size, void *data);$/;"	m	struct:AVCodec
+error	codeccontext.h	/^    uint64_t error[4];$/;"	m	struct:CodecContext
+error_rate	codeccontext.h	/^    int error_rate;$/;"	m	struct:CodecContext
+exp_vlc	wmadeci.c	/^    VLC exp_vlc;$/;"	m	struct:WMADecodeContext	file:
+exponent_band_22050	wmadeci.h	/^static const uint8_t exponent_band_22050[3][25] = {$/;"	v
+exponent_band_32000	wmadeci.h	/^static const uint8_t exponent_band_32000[3][25] = {$/;"	v
+exponent_band_44100	wmadeci.h	/^static const uint8_t exponent_band_44100[3][25] = {$/;"	v
+exponent_bands	wmadeci.c	/^    uint16_t exponent_bands[BLOCK_NB_SIZES][25];$/;"	m	struct:WMADecodeContext	file:
+exponent_high_bands	wmadeci.c	/^    int exponent_high_bands[BLOCK_NB_SIZES][HIGH_BAND_MAX_SIZE];$/;"	m	struct:WMADecodeContext	file:
+exponent_high_sizes	wmadeci.c	/^    int exponent_high_sizes[BLOCK_NB_SIZES];$/;"	m	struct:WMADecodeContext	file:
+exponent_sizes	wmadeci.c	/^    int exponent_sizes[BLOCK_NB_SIZES];$/;"	m	struct:WMADecodeContext	file:
+exponents	wmadeci.c	/^    fixed32 exponents[MAX_CHANNELS][BLOCK_MAX_SIZE];$/;"	m	struct:WMADecodeContext	file:
+exptab	wmadeci.c	/^    FFTComplex *exptab;$/;"	m	struct:FFTContext	file:
+exptab1	wmadeci.c	/^    FFTComplex *exptab1; \/* only used by SSE code *\/$/;"	m	struct:FFTContext	file:
+extradata	codeccontext.h	/^    void *extradata;$/;"	m	struct:CodecContext
+extradata_size	codeccontext.h	/^    int extradata_size;$/;"	m	struct:CodecContext
+ff_imdct_calc	wmadeci.c	/^void ff_imdct_calc(MDCTContext *s,$/;"	f
+ff_log2_tab	wmadeci.h	/^const uint8_t ff_log2_tab[256]=$/;"	v
+ff_mdct_end	wmadeci.c	/^void ff_mdct_end(MDCTContext *s)$/;"	f
+ff_mdct_init	wmadeci.c	/^int ff_mdct_init(MDCTContext *s, int nbits, int inverse)$/;"	f
+ff_sqrt_tab	wmadeci.h	/^const uint8_t ff_sqrt_tab[128]=$/;"	v
+fft	wmadeci.c	/^    FFTContext fft;$/;"	m	struct:MDCTContext	file:
+fft_calc	wmadeci.c	/^    void (*fft_calc)(struct FFTContext *s, FFTComplex *z);$/;"	m	struct:FFTContext	file:
+fft_calc	wmadeci.c	/^void fft_calc(FFTContext *s, FFTComplex *z)$/;"	f
+fft_end	wmadeci.c	/^void fft_end(FFTContext *s)$/;"	f
+fft_inits	wmadeci.c	/^int fft_inits(FFTContext *s, int nbits, int inverse)$/;"	f
+fft_permute	wmadeci.c	/^void fft_permute(FFTContext *s, FFTComplex *z)$/;"	f
+fixasin32	wmadeci.c	/^__inline fixed32 fixasin32(fixed32 x)$/;"	f
+fixcos32	wmadeci.c	/^__inline fixed32 fixcos32(fixed32 x)$/;"	f
+fixdiv32	wmadeci.c	/^static fixed32 fixdiv32(fixed32 x, fixed32 y)$/;"	f	file:
+fixdiv64	wmadeci.c	/^static fixed64 fixdiv64(fixed64 x, fixed64 y)$/;"	f	file:
+fixed32	wmadeci.c	61;"	d	file:
+fixed64	wmadeci.c	62;"	d	file:
+fixmul32	wmadeci.c	/^static fixed32 fixmul32(fixed32 x, fixed32 y)$/;"	f	file:
+fixmul64byfixed	wmadeci.c	/^static fixed64 fixmul64byfixed(fixed64 x, fixed32 y)$/;"	f	file:
+fixsin32	wmadeci.c	/^__inline fixed32 fixsin32(fixed32 x)$/;"	f
+fixsqrt32	wmadeci.c	/^static fixed32 fixsqrt32(fixed32 x)$/;"	f	file:
+fixtoi32	wmadeci.c	105;"	d	file:
+fixtoi64	wmadeci.c	106;"	d	file:
+flags	codeccontext.h	/^    int flags;$/;"	m	struct:CodecContext
+flush	codeccontext.h	/^    void (*flush)(CodecContext *);$/;"	m	struct:AVCodec
+frame_bits	codeccontext.h	/^    int frame_bits;$/;"	m	struct:CodecContext
+frame_count	wmadeci.c	/^    int frame_count;$/;"	m	struct:WMADecodeContext	file:
+frame_len	wmadeci.c	/^    int frame_len;       \/* frame length in samples *\/$/;"	m	struct:WMADecodeContext	file:
+frame_len_bits	wmadeci.c	/^    int frame_len_bits;  \/* frame_len = 1 << frame_len_bits *\/$/;"	m	struct:WMADecodeContext	file:
+frame_number	codeccontext.h	/^    int frame_number;   \/\/\/< audio or video frame number$/;"	m	struct:CodecContext
+frame_out	wmadeci.c	/^    fixed32 frame_out[MAX_CHANNELS][BLOCK_MAX_SIZE * 2];$/;"	m	struct:WMADecodeContext	file:
+frame_rate	codeccontext.h	/^    int frame_rate;$/;"	m	struct:CodecContext
+frame_rate_base	codeccontext.h	/^    int frame_rate_base;$/;"	m	struct:CodecContext
+frame_size	codeccontext.h	/^    int frame_size;     \/\/\/< in samples, initialized when calling 'init'$/;"	m	struct:CodecContext
+free_vlc	wmadeci.c	/^void free_vlc(VLC *vlc)$/;"	f
+gb	wmadeci.c	/^    GetBitContext gb;$/;"	m	struct:WMADecodeContext	file:
+get_bits	wmadeci.c	/^static inline unsigned int get_bits(GetBitContext *s, int n)$/;"	f	file:
+get_bits_count	wmadeci.c	/^static inline int get_bits_count(GetBitContext *s)$/;"	f	file:
+get_sbits	wmadeci.c	/^static inline int get_sbits(GetBitContext *s, int n)$/;"	f	file:
+get_vlc	wmadeci.c	/^static inline int get_vlc(GetBitContext *s, VLC *vlc)$/;"	f	file:
+get_xbits	wmadeci.c	/^static inline int get_xbits(GetBitContext *s, int n)$/;"	f	file:
+global_quality	codeccontext.h	/^    int global_quality;$/;"	m	struct:CodecContext
+gop_size	codeccontext.h	/^    int gop_size;$/;"	m	struct:CodecContext
+header_bits	codeccontext.h	/^    int header_bits;$/;"	m	struct:CodecContext
+height	codeccontext.h	/^    int width, height;$/;"	m	struct:CodecContext
+help	codeccontext.h	/^    const char *help; \/\/	const struct AVOption* sub;$/;"	m	struct:AVOption
+hgain_huffbits	wmadeci.h	/^static const uint8_t hgain_huffbits[37] = {$/;"	v
+hgain_huffcodes	wmadeci.h	/^static const uint16_t hgain_huffcodes[37] = {$/;"	v
+hgain_vlc	wmadeci.c	/^    VLC hgain_vlc;$/;"	m	struct:WMADecodeContext	file:
+high_band_coded	wmadeci.c	/^    int high_band_coded[MAX_CHANNELS][HIGH_BAND_MAX_SIZE];$/;"	m	struct:WMADecodeContext	file:
+high_band_start	wmadeci.c	/^    int high_band_start[BLOCK_NB_SIZES]; \/* index of first coef in high band *\/$/;"	m	struct:WMADecodeContext	file:
+high_band_values	wmadeci.c	/^    int high_band_values[MAX_CHANNELS][HIGH_BAND_MAX_SIZE];$/;"	m	struct:WMADecodeContext	file:
+huffbits	wmadeci.h	/^    const uint8_t *huffbits;   \/* VLC bit size *\/$/;"	m	struct:CoefVLCTable
+huffcodes	wmadeci.h	/^    const uint32_t *huffcodes; \/* VLC bit values *\/$/;"	m	struct:CoefVLCTable
+i_count	codeccontext.h	/^    int i_count;$/;"	m	struct:CodecContext
+i_tex_bits	codeccontext.h	/^    int i_tex_bits;$/;"	m	struct:CodecContext
+id	codeccontext.h	/^    int id;$/;"	m	struct:AVCodec
+ildct_cmp	codeccontext.h	/^    int ildct_cmp;$/;"	m	struct:CodecContext
+im	wmadeci.c	/^    fixed32 re, im;$/;"	m	struct:FFTComplex	file:
+index	wmadeci.c	/^    int index;$/;"	m	struct:GetBitContext	file:
+init	codeccontext.h	/^    int (*init)(CodecContext *);$/;"	m	struct:AVCodec
+init_coef_vlc	wmadeci.c	/^static void init_coef_vlc(VLC *vlc,$/;"	f	file:
+init_get_bits	wmadeci.c	/^void init_get_bits(GetBitContext *s,$/;"	f
+init_vlc	wmadeci.c	/^int init_vlc(VLC *vlc, int nb_bits, int nb_codes,$/;"	f
+int16_t	wmadeci.c	/^typedef short int16_t;$/;"	t	file:
+int32_t	wmadeci.c	/^typedef int int32_t;$/;"	t	file:
+int64_t	wmadeci.c	/^typedef long long int64_t;$/;"	t	file:
+int8_t	wmadeci.c	/^typedef char int8_t;$/;"	t	file:
+inter_matrix	codeccontext.h	/^    uint16_t *inter_matrix;$/;"	m	struct:CodecContext
+inter_quant_bias	codeccontext.h	/^    int inter_quant_bias;$/;"	m	struct:CodecContext
+internal_buffer	codeccontext.h	/^    void *internal_buffer;$/;"	m	struct:CodecContext
+internal_buffer_count	codeccontext.h	/^    int internal_buffer_count;$/;"	m	struct:CodecContext
+interpolate_array	wmadeci.c	/^static void interpolate_array(fixed32 *scale, int old_size, int new_size)$/;"	f	file:
+intra_matrix	codeccontext.h	/^    uint16_t *intra_matrix;$/;"	m	struct:CodecContext
+intra_quant_bias	codeccontext.h	/^    int intra_quant_bias;$/;"	m	struct:CodecContext
+inverse	wmadeci.c	/^    int inverse;$/;"	m	struct:FFTContext	file:
+itofix32	wmadeci.c	104;"	d	file:
+itofix64	wmadeci.c	103;"	d	file:
+last_bitoffset	wmadeci.c	/^    int last_bitoffset;$/;"	m	struct:WMADecodeContext	file:
+last_predictor_count	codeccontext.h	/^    int last_predictor_count;$/;"	m	struct:CodecContext
+last_superframe	wmadeci.c	/^    uint8_t last_superframe[MAX_CODED_SUPERFRAME_SIZE + 4]; \/* padding added *\/$/;"	m	struct:WMADecodeContext	file:
+last_superframe_len	wmadeci.c	/^    int last_superframe_len;$/;"	m	struct:WMADecodeContext	file:
+le2me_16	wmadeci.c	321;"	d	file:
+le2me_16	wmadeci.c	328;"	d	file:
+le2me_32	wmadeci.c	322;"	d	file:
+le2me_32	wmadeci.c	329;"	d	file:
+le2me_64	wmadeci.c	323;"	d	file:
+le2me_64	wmadeci.c	330;"	d	file:
+level_table	wmadeci.c	/^    uint16_t *level_table[2];$/;"	m	struct:WMADecodeContext	file:
+levels	wmadeci.h	/^    const uint16_t *levels; \/* table to build run\/level tables *\/$/;"	m	struct:CoefVLCTable
+levels0	wmadeci.h	/^static const uint16_t levels0[60] = {$/;"	v
+levels1	wmadeci.h	/^static const uint16_t levels1[40] = {$/;"	v
+levels2	wmadeci.h	/^static const uint16_t levels2[340] = {$/;"	v
+levels3	wmadeci.h	/^static const uint16_t levels3[180] = {$/;"	v
+levels4	wmadeci.h	/^static const uint16_t levels4[70] = {$/;"	v
+levels5	wmadeci.h	/^static const uint16_t levels5[40] = {$/;"	v
+lmax	codeccontext.h	/^    int lmax;$/;"	m	struct:CodecContext
+lmin	codeccontext.h	/^    int lmin;$/;"	m	struct:CodecContext
+lsp_codebook	wmadeci.h	/^static const fixed32 lsp_codebook[NB_LSP_COEFS][16] = {$/;"	v
+lsp_cos_table	wmadeci.c	/^    fixed32 lsp_cos_table[BLOCK_MAX_SIZE];$/;"	m	struct:WMADecodeContext	file:
+lsp_pow_e_table	wmadeci.c	/^    fixed64 lsp_pow_e_table[256];$/;"	m	struct:WMADecodeContext	file:
+lsp_pow_e_table	wmadeci.h	/^const fixed64 lsp_pow_e_table[] =$/;"	v
+lsp_pow_m_table1	wmadeci.c	/^    fixed64 lsp_pow_m_table1[(1 << LSP_POW_BITS)];$/;"	m	struct:WMADecodeContext	file:
+lsp_pow_m_table2	wmadeci.c	/^    fixed64 lsp_pow_m_table2[(1 << LSP_POW_BITS)];$/;"	m	struct:WMADecodeContext	file:
+main	wmadeci.c	/^int main(int argc, char **argv)$/;"	f
+max	codeccontext.h	/^    double max;$/;"	m	struct:AVOption
+max_exponent	wmadeci.c	/^    fixed32 max_exponent[MAX_CHANNELS];$/;"	m	struct:WMADecodeContext	file:
+mb_cmp	codeccontext.h	/^    int mb_cmp;$/;"	m	struct:CodecContext
+mb_decision	codeccontext.h	/^    int mb_decision;$/;"	m	struct:CodecContext
+mb_qmax	codeccontext.h	/^    int mb_qmax;$/;"	m	struct:CodecContext
+mb_qmin	codeccontext.h	/^    int mb_qmin;$/;"	m	struct:CodecContext
+mdct_ctx	wmadeci.c	/^    MDCTContext mdct_ctx[BLOCK_NB_SIZES];$/;"	m	struct:WMADecodeContext	file:
+mdct_tmp	wmadeci.c	/^    FFTComplex mdct_tmp[BLOCK_MAX_SIZE]; \/* temporary storage for imdct *\/$/;"	m	struct:WMADecodeContext	file:
+me_cmp	codeccontext.h	/^    int me_cmp;$/;"	m	struct:CodecContext
+me_method	codeccontext.h	/^    int me_method;$/;"	m	struct:CodecContext
+me_pre_cmp	codeccontext.h	/^    int me_pre_cmp;$/;"	m	struct:CodecContext
+me_range	codeccontext.h	/^    int me_range;$/;"	m	struct:CodecContext
+me_sub_cmp	codeccontext.h	/^    int me_sub_cmp;$/;"	m	struct:CodecContext
+me_subpel_quality	codeccontext.h	/^    int me_subpel_quality;$/;"	m	struct:CodecContext
+min	codeccontext.h	/^    double min;$/;"	m	struct:AVOption
+misc_bits	codeccontext.h	/^    int misc_bits;$/;"	m	struct:CodecContext
+mpeg_quant	codeccontext.h	/^    int mpeg_quant;$/;"	m	struct:CodecContext
+ms_stereo	wmadeci.c	/^    uint8_t ms_stereo; \/* true if mid\/side stereo mode *\/$/;"	m	struct:WMADecodeContext	file:
+mv_bits	codeccontext.h	/^    int mv_bits;$/;"	m	struct:CodecContext
+n	wmadeci.c	/^    int n;  \/* size of MDCT (i.e. number of input data * 2) *\/$/;"	m	struct:MDCTContext	file:
+n	wmadeci.h	/^    int n; \/* total number of codes *\/$/;"	m	struct:CoefVLCTable
+name	codeccontext.h	/^    const char *name; \/* if name is NULL, it indicates a link to next *\/$/;"	m	struct:AVOption
+name	codeccontext.h	/^    const char *name;$/;"	m	struct:AVCodec
+nb_block_sizes	wmadeci.c	/^    int nb_block_sizes;  \/* number of block sizes *\/$/;"	m	struct:WMADecodeContext	file:
+nb_channels	wmadeci.c	/^    int nb_channels;$/;"	m	struct:WMADecodeContext	file:
+nbits	wmadeci.c	/^    int nbits; \/* n = 2^nbits *\/$/;"	m	struct:MDCTContext	file:
+nbits	wmadeci.c	/^    int nbits;$/;"	m	struct:FFTContext	file:
+next	codeccontext.h	/^    struct AVCodec *next;$/;"	m	struct:AVCodec	typeref:struct:AVCodec::AVCodec
+next_block_len_bits	wmadeci.c	/^    int next_block_len_bits; \/* log2 of next block length *\/$/;"	m	struct:WMADecodeContext	file:
+noise_index	wmadeci.c	/^    int noise_index;$/;"	m	struct:WMADecodeContext	file:
+noise_mult	wmadeci.c	/^    fixed32 noise_mult; \/* XXX: suppress that and integrate it in the noise array *\/$/;"	m	struct:WMADecodeContext	file:
+noise_reduction	codeccontext.h	/^    int noise_reduction;$/;"	m	struct:CodecContext
+noise_table	wmadeci.c	/^    fixed32 noise_table[NOISE_TAB_SIZE];$/;"	m	struct:WMADecodeContext	file:
+offset	codeccontext.h	/^    int offset;$/;"	m	struct:AVOption
+opaque	codeccontext.h	/^    void *opaque;$/;"	m	struct:CodecContext
+options	codeccontext.h	/^    const AVOption *options;$/;"	m	struct:AVCodec
+p_count	codeccontext.h	/^    int p_count;$/;"	m	struct:CodecContext
+p_tex_bits	codeccontext.h	/^    int p_tex_bits;$/;"	m	struct:CodecContext
+parse_only	codeccontext.h	/^    int parse_only; \/* - decoding only: if true, only parsing is done$/;"	m	struct:CodecContext
+pow_10_to_yover16	wmadeci.h	/^const fixed32 pow_10_to_yover16[]=$/;"	v
+pow_a_table	wmadeci.h	/^const fixed32 pow_a_table[] =$/;"	v
+pow_m1_4	wmadeci.c	/^static inline fixed32 pow_m1_4(WMADecodeContext *s, fixed32 x)$/;"	f	file:
+pow_table	wmadeci.h	/^const fixed64 pow_table[] =$/;"	v
+pre_dia_size	codeccontext.h	/^    int pre_dia_size;$/;"	m	struct:CodecContext
+pre_me	codeccontext.h	/^    int pre_me;$/;"	m	struct:CodecContext
+prev_block_len_bits	wmadeci.c	/^    int prev_block_len_bits; \/* log2 of prev block length *\/$/;"	m	struct:WMADecodeContext	file:
+priv_data	codeccontext.h	/^    void *priv_data; \/\/ PJJ$/;"	m	struct:CodecContext
+priv_data_size	codeccontext.h	/^    int priv_data_size;$/;"	m	struct:AVCodec
+quantizer_noise_shaping	codeccontext.h	/^    int quantizer_noise_shaping;$/;"	m	struct:CodecContext
+rate_emu	codeccontext.h	/^    int rate_emu;$/;"	m	struct:CodecContext
+rc_eq	codeccontext.h	/^    char *rc_eq;$/;"	m	struct:CodecContext
+rc_override_count	codeccontext.h	/^    int rc_override_count;$/;"	m	struct:CodecContext
+re	wmadeci.c	/^    fixed32 re, im;$/;"	m	struct:FFTComplex	file:
+real_pict_num	codeccontext.h	/^    int real_pict_num;  \/\/\/< returns the real picture number of previous encoded frame$/;"	m	struct:CodecContext
+reset_block_lengths	wmadeci.c	/^    int reset_block_lengths;$/;"	m	struct:WMADecodeContext	file:
+revtab	wmadeci.c	/^    uint16_t *revtab;$/;"	m	struct:FFTContext	file:
+run_table	wmadeci.c	/^    uint16_t *run_table[2];$/;"	m	struct:WMADecodeContext	file:
+sample_fmt	codeccontext.h	/^    int sample_fmt;  \/\/\/< sample format, currenly unused$/;"	m	struct:CodecContext
+sample_rate	codeccontext.h	/^    int sample_rate; \/\/\/< samples per sec$/;"	m	struct:CodecContext
+sample_rate	wmadeci.c	/^    int sample_rate;$/;"	m	struct:WMADecodeContext	file:
+scale_huffbits	wmadeci.h	/^static const uint8_t scale_huffbits[121] = {$/;"	v
+scale_huffcodes	wmadeci.h	/^static const uint32_t scale_huffcodes[121] = {$/;"	v
+scenechange_threshold	codeccontext.h	/^    int scenechange_threshold;$/;"	m	struct:CodecContext
+size_in_bits	wmadeci.c	/^    int size_in_bits;$/;"	m	struct:GetBitContext	file:
+skip_bits	wmadeci.c	/^static inline void skip_bits(GetBitContext *s, int n)$/;"	f	file:
+skip_count	codeccontext.h	/^    int skip_count;$/;"	m	struct:CodecContext
+slice_flags	codeccontext.h	/^    int slice_flags;$/;"	m	struct:CodecContext
+stats_in	codeccontext.h	/^    char *stats_in;$/;"	m	struct:CodecContext
+stats_out	codeccontext.h	/^    char *stats_out;$/;"	m	struct:CodecContext
+stream_codec_tag	codeccontext.h	/^    unsigned int stream_codec_tag;$/;"	m	struct:CodecContext
+sub_id	codeccontext.h	/^    int sub_id;$/;"	m	struct:CodecContext
+table	wmadeci.c	/^    VLC_TYPE (*table)[2];$/;"	m	struct:VLC	file:
+table_allocated	wmadeci.c	/^    int table_size, table_allocated;$/;"	m	struct:VLC	file:
+table_size	wmadeci.c	/^    int table_size, table_allocated;$/;"	m	struct:VLC	file:
+tcos	wmadeci.c	/^    fixed32 *tcos;$/;"	m	struct:MDCTContext	file:
+tsin	wmadeci.c	/^    fixed32 *tsin;$/;"	m	struct:MDCTContext	file:
+type	codeccontext.h	/^    enum CodecType type;$/;"	m	struct:AVCodec	typeref:enum:AVCodec::CodecType
+type	codeccontext.h	/^    int type;$/;"	m	struct:AVOption
+uint16_t	wmadeci.c	/^typedef unsigned short uint16_t;$/;"	t	file:
+uint32_t	wmadeci.c	/^typedef unsigned int uint32_t;$/;"	t	file:
+uint64_t	wmadeci.c	/^typedef unsigned long long uint64_t;$/;"	t	file:
+uint8_t	wmadeci.c	/^typedef unsigned char uint8_t;$/;"	t	file:
+unaligned32	wmadeci.c	278;"	d	file:
+unaligned32_be	wmadeci.c	/^static inline int unaligned32_be(const void *v)$/;"	f	file:
+use_bit_reservoir	wmadeci.c	/^    int use_bit_reservoir;$/;"	m	struct:WMADecodeContext	file:
+use_exp_vlc	wmadeci.c	/^    int use_exp_vlc;  \/* exponent coding: 0 = lsp, 1 = vlc + delta *\/$/;"	m	struct:WMADecodeContext	file:
+use_noise_coding	wmadeci.c	/^    int use_noise_coding; \/* true if perceptual noise is added *\/$/;"	m	struct:WMADecodeContext	file:
+use_variable_block_len	wmadeci.c	/^    int use_variable_block_len;$/;"	m	struct:WMADecodeContext	file:
+version	wmadeci.c	/^    int version; \/* 1 = 0x160 (WMAV1), 2 = 0x161 (WMAV2) *\/$/;"	m	struct:WMADecodeContext	file:
+width	codeccontext.h	/^    int width, height;$/;"	m	struct:CodecContext
+windows	wmadeci.c	/^    fixed32 *windows[BLOCK_NB_SIZES];$/;"	m	struct:WMADecodeContext	file:
+wma_critical_freqs	wmadeci.h	/^static const uint16_t wma_critical_freqs[25] = {$/;"	v
+wma_decode_block	wmadeci.c	/^static int wma_decode_block(WMADecodeContext *s)$/;"	f	file:
+wma_decode_end	wmadeci.c	/^static int wma_decode_end(CodecContext *avctx)$/;"	f	file:
+wma_decode_frame	wmadeci.c	/^static int wma_decode_frame(WMADecodeContext *s, int16_t *samples)$/;"	f	file:
+wma_decode_init_fixed	wmadeci.c	/^static int wma_decode_init_fixed(CodecContext * avctx)$/;"	f	file:
+wma_decode_superframe	wmadeci.c	/^static int wma_decode_superframe(CodecContext *avctx,$/;"	f	file:
+wma_lsp_to_curve	wmadeci.c	/^static void wma_lsp_to_curve(WMADecodeContext *s,$/;"	f	file:
+wma_lsp_to_curve_init	wmadeci.c	/^static void wma_lsp_to_curve_init(WMADecodeContext *s, int frame_len)$/;"	f	file:
+wmav1i_decoder	wmadeci.c	/^AVCodec wmav1i_decoder =$/;"	v
+wmav2i_decoder	wmadeci.c	/^AVCodec wmav2i_decoder =$/;"	v
+workaround_bugs	codeccontext.h	/^    int workaround_bugs;$/;"	m	struct:CodecContext
+xvmc_acceleration	codeccontext.h	/^    int xvmc_acceleration;$/;"	m	struct:CodecContext
