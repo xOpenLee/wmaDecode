@@ -4,6 +4,6 @@
     目标平台:stm32
 ##2. target
     初步目标是和STM32 audio engine -WMA decoder library技术指标相当
-    ![xOpenLee](https://github.com/xOpenLee/wmaDecode/blob/master/source/wmaDecodeTarget.png)
+    ![xOpenLee](http://ram.github.com/xOpenLee/wmaDecode/blob/master/source/wmaDecodeTarget.png)
 ##3. final target
     the best
