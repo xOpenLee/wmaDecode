@@ -2544,29 +2544,112 @@ AVCodec wmav2i_decoder = {
     wma_decode_superframe,
 };
 
+static int print_data(char *data, const unsigned int count)
+{
+
+    unsigned int i = 0;
+    if (NULL == data)
+        return -1;
+
+    for (i = 0; i < count; i++)
+        printf("###INFO: data[%d] = 0x%2.0x\r\n", i, data[i]);
+
+    return 0;
+}
+
+static FILE *wma_open_file(char *file_name)
+{
+    FILE *fd = 0;
+
+    PDEBUG();
+    if (NULL == file_name)
+        return NULL;
+
+    fd = fopen(file_name, "rb");
+    VAR_DEBUG(fd);
+    if(fd < 0) {
+        printf("###ERR: open %s\r\n", file_name);
+        return NULL;
+    }
+
+    return fd;
+}
+
+static int get_file_size(FILE *fd)
+{
+    int file_size = 0;
+    if(NULL == fd)
+        return -1;
+
+
+    fseek(fd, 0, SEEK_END);
+    file_size = ftell(fd);
+    fseek(fd, 0, SEEK_SET);
+    VAR_DEBUG(file_size);
+
+    return file_size;
+}
+
+static int read_file_content(FILE *fd, char *content, const unsigned int count)
+{
+    if ((NULL == fd) || (NULL == content) || (count == 0))
+        return -1;
+
+    return fread(content, sizeof(char), count, fd);
+
+}
+
+
+#define WMA_FILE_NAME "./sample/wma-pro10.wma"
 int main(int argc, char **argv)
 {
+    FILE *fd = NULL;
+    int ret = 0;
+    unsigned int file_size = 0;
+    char *content = NULL;
+
     const char *output_type = NULL;
-    fixed32 fix32 = 0x12345678;
-    fixed64 fix64 = 0x01234456789abcdef;
     CodecContext * avct = NULL;
     PDEBUG();
 
-//    fix64 = IntTo64(fix32);
-//   VAR_DEBUG(fix64);
-
-    fix32 = IntFrom64(fix64);
-    VAR_DEBUG(fix32);
-
-    return 0;
-    /* register all the codecs */
-    if (argc < 2) {
-        printf("##INFO: usage fix point wma decode\r\n");
-        return 1;
+    /*open wma file*/
+    fd = wma_open_file(WMA_FILE_NAME);
+    if (fd < 0) {
+        printf("###ERR: wma open file err\r\n") ;
+        return -1;
     }
-    avct = malloc(sizeof(struct CodecContext));
-    if(NULL == avct)
-        WMA_ERR(NULL);
+
+    /*get file size*/
+    file_size = get_file_size(fd);
+    if (file_size < 0) {
+        printf("###ERR: get file size err\r\n") ;
+        return -2;
+    }
+
+    /*malloc memory to storage file content*/
+    content = (char*) malloc(file_size);
+    if (NULL == content) {
+        printf("ERR:  malloc memory err\r\n");
+        return -3;
+    }
+    memset(content, 0x00, file_size);
+
+    /*read out file content*/
+    ret = read_file_content(fd, content, file_size);
+    if (ret < 0) {
+        printf("ERR:  read file content err\r\n");
+        return -4;
+    }
+
+    /*printf file data*/
+    //ret = print_data(content, file_size);
+    if (ret < 0) {
+        printf("###ERR: print data err\r\n") ;
+        return -5;
+    }
+
+
 
     return 0;
+   
 }
